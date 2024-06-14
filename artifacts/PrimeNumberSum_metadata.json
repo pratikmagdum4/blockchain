@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sumPrimes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PrimeNumberSum.sol": "PrimeNumberSum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PrimeNumberSum.sol": {
+			"keccak256": "0x1d16b09b35c7ab3a69617859a9311086f5a3b9f1b36eeccd6aee7bd8233fb084",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1de0376a45201a6e80bdfab07d050c71ec51ed1a4a203a8d8fcbc9bcc997375a",
+				"dweb:/ipfs/QmfEZEmGY87UMdChqqTQ8WwMyEnVGKyRgu9kWmgoN4dJdL"
+			]
+		}
+	},
+	"version": 1
+}

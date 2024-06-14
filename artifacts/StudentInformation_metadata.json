@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_percentage",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_email",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dob",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentClass",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_admissionYear",
+						"type": "uint256"
+					}
+				],
+				"name": "storeStudentData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "percentage",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dob",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "studentClass",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "admissionYear",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudentInformation1.sol": "StudentInformation"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudentInformation1.sol": {
+			"keccak256": "0x617c8591f1db09dc2826f4bca14eae57682c46337046b9980d6be68ed240c5b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7979bed2670fb7c65d69c3cac16bb63c304ccfe142053bcb0339e35b41906fb2",
+				"dweb:/ipfs/QmWtLeh6WHKWvW1MM5yMAm5kmVGRv2Jj3FR7uz69ytTCtu"
+			]
+		}
+	},
+	"version": 1
+}
